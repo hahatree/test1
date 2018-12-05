@@ -1,6 +1,44 @@
-hello git
-hello git
-hello git
-hello git3
-hello git4
-hello git5
+監控資料夾
+git init 
+看狀態
+git status
+站存
+git add . 
+推上去
+git commit -am "git上去的紀錄"
+上傳上去
+git push -u origin master 
+從遠端下載至戰存端
+git fetch origin master:temp
+合併本地端和從站存端遠端資料
+git merge
+直接從遠端下載資料至本地端 無法看差異
+git pull
+從遠端下載下來  先開成一個分支(master為主線)
+git branch
+開一個分支叫newbranch
+git branch newbranch
+切換至newbranch分支
+git checkout newbranch
+分支和主線合併
+git merge newbranch
+刪除分支
+git branch -d newbranch
+看差異
+git diff temp
+開新分支，並轉到分支
+git checkout -b newbranch2
+查git紀錄
+git log
+跳回某版本
+git reset --hub '版號前幾碼'
+跳到未來
+git reflog
+git reset --hub '前幾碼'
+
+
+
+ 
+
+
+
